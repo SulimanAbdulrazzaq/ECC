@@ -956,7 +956,7 @@ function getFullDenialBudget() {
 const MAX_DENIALS_PATTERN = /^\d+$/;
 
 /**
- * Session-wide ceiling on Edit/Write fact-force denials, from
+ * Session-wide ceiling on Edit/Write/MultiEdit fact-force denials, from
  * GATEGUARD_FACT_FORCE_MAX_DENIALS. Opt-in: unset keeps the existing behavior
  * of denying every new path, and the destructive-Bash gate is unaffected
  * either way.
